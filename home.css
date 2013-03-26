@@ -1,0 +1,17 @@
+input.button {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: 250px;
+  font: bold 18px/1.5 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+input#draw {
+  background-image: url("draw.jpg");
+  background-position: 0px 0px; 
+}
+
+input#weather {
+  background-image: url("cloud.jpg");
+  background-position: 0px 10px; 
+}
