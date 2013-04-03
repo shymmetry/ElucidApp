@@ -1,0 +1,28 @@
+input.button {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: 250px;
+  font: bold 18px/1.5 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  float: left;
+}
+
+input#draw {
+  background-image: url("draw.jpg");
+  background-position: 0px 0px; 
+  background-position: center; 
+}
+
+input#weather {
+  background-image: url("cloud.jpg");
+  background-position: 0px 10px; 
+  background-position: center; 
+}
+
+input#youtube {
+  background-image: url("youtube.jpg");
+  background-position: 0px 0px; 
+  background-size: 100%; 
+  background-size: 200px auto;
+  background-position: center; 
+}

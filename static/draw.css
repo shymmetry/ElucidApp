@@ -1,0 +1,59 @@
+#toolbar {
+  border: 1px solid black;
+  height: 50px;
+}
+
+.tab {
+  height: 50px;
+  width: 50px;
+  background-size: 100%; 
+  background-size: 50px auto;
+}
+
+.pencil {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-image: url("pencil.jpg");
+  float: left;
+}
+
+.eraser {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-image: url("eraser.jpg");
+  float: left;
+}
+
+.paintbrush {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-image: url("paintbrush.jpg");
+  float: left;
+}
+
+.clear {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-image: url("clear.jpg");
+  float: left;
+}
+
+.red {
+  background-color: red;
+  float: right;
+}
+
+.blue {
+  background-color: blue;
+  float: right;
+}
+
+.green {
+  background-color: green;
+  float: right;
+}
+
+.black {
+  background-color: black;
+  float: right;
+}
