@@ -1,38 +1,46 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<link href="draw.css" rel="stylesheet" type="text/css">	
+		<link href="draw.css" rel="stylesheet" type="text/css">
 		<link href="home.css" rel="stylesheet" type="text/css">	
+		<link rel="stylesheet" type="text/css" href="header.css">
 	</head>
-	<canvas id="myCanvas" height="600" style="border:1px solid #000000;">
-	  No canvas available!
-	</canvas>
 	<body>
-		<div id="toolbar">
-			<form action="javascript:getPencil()">
-				<input type="submit" value="" class="tab pencil"/>
+		<div id="header">
+			<form>
+				<input type="button" value="Elucid" id="home" onclick="location.href='home.html'"/>
 			</form>
-			<form action="javascript:getEraser()">
-				<input type="submit" value="" class="tab eraser"/>
-			</form>
-			<form action="javascript:getPaintbrush()">
-				<input type="submit" value="" class="tab paintbrush"/>
-			</form>
-			<form action="javascript:clearPage()">
-				<input type="submit" value="" class="tab clear"/>
-			</form>
-			<form action="javascript:color('red')">
-				<input type="submit" value="" class="tab red"/>
-			</form>
-			<form action="javascript:color('blue')">
-				<input type="submit" value="" class="tab blue"/>
-			</form>
-			<form action="javascript:color('green')">
-				<input type="submit" value="" class="tab green"/>
-			</form>
-			<form action="javascript:color('black')">
-				<input type="submit" value="" class="tab black"/>
-			</form>
+		</div>
+		<div id="page">
+			<canvas id="myCanvas" height="600" style="border:1px solid #000000;">
+				No canvas available!
+			</canvas>
+			<div id="toolbar">
+				<form action="javascript:getPencil()">
+					<input type="submit" value="" class="tab pencil"/>
+				</form>
+				<form action="javascript:getEraser()">
+					<input type="submit" value="" class="tab eraser"/>
+				</form>
+				<form action="javascript:getPaintbrush()">
+					<input type="submit" value="" class="tab paintbrush"/>
+				</form>
+				<form action="javascript:clearPage()">
+					<input type="submit" value="" class="tab clear"/>
+				</form>
+				<form action="javascript:color('red')">
+					<input type="submit" value="" class="tab red"/>
+				</form>
+				<form action="javascript:color('blue')">
+					<input type="submit" value="" class="tab blue"/>
+				</form>
+				<form action="javascript:color('green')">
+					<input type="submit" value="" class="tab green"/>
+				</form>
+				<form action="javascript:color('black')">
+					<input type="submit" value="" class="tab black"/>
+				</form>
+			</div>
 		</div>
 	</body>
 	<script src="draw.js"></script>

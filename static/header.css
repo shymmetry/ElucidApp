@@ -1,0 +1,20 @@
+#header {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 100px;
+	width: 100%;
+	background: #036;
+}
+
+#page {
+	padding-top: 100px;
+}
+
+#home {
+	font-family: verdana;
+	font-size: 5em;
+	border: none;
+	background: none;
+	color: #FFF;
+}

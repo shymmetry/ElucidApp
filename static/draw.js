@@ -22,6 +22,7 @@ function init() {
 function draw(x, y) {
   if (curTool === "pencil") {
     ctx.lineWidth = 1;
+	ctx.lineCap = 'round';
 	ctx.beginPath();
 	ctx.moveTo(lastX, lastY);
 	ctx.lineTo(x, y);
@@ -30,6 +31,7 @@ function draw(x, y) {
   }
   else if (curTool === "paintbrush") {
     ctx.lineWidth = 5;
+	ctx.lineCap = 'round';
 	ctx.beginPath();
 	ctx.moveTo(lastX, lastY);
 	ctx.lineTo(x, y);
@@ -39,6 +41,7 @@ function draw(x, y) {
   else if (curTool === "eraser") {
     ctx.strokeStyle = "white";
     ctx.lineWidth = 10;
+	ctx.lineCap = 'round';
 	ctx.beginPath();
 	ctx.moveTo(lastX, lastY);
 	ctx.lineTo(x, y);
